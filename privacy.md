@@ -1,166 +1,124 @@
 # Miqaat Privacy Policy
 
-  Effective date: August 5, 2026
+_Effective date: November 21, 2026_
 
-  Miqaat (“Miqaat,” “we,” “us,” or “our”) respects your privacy. This Privacy
-  Policy explains how Miqaat handles information when you use the Miqaat
-  mobile application.
+Miqaat (“Miqaat,” “we,” “us,” or “our”) respects your privacy. This Privacy Policy explains how Miqaat handles information when you use the Miqaat mobile application on iPhone (Apple App Store) and Android (Google Play).
 
-  ## 1. Information stored on your device
+**In short:** Miqaat has no account system and no Miqaat server. Your prayer, Quran and challenge data stays on your device. The only data that leaves your device is purchase information handled by RevenueCat, and the text of a city search if you search for a city.
 
-  Miqaat stores certain information locally on your device so the app can
-  provide its features. This may include:
+## 1. Information stored on your device
 
-  - Your name and gender preference
-  - Prayer preferences, including calculation method, madhab, city, and
-    timezone
+Miqaat stores certain information locally on your device so the app can provide its features. This may include:
 
-  - Prayer confirmations and prayer history
-  - Quran reading goals, reading progress, reading time, and selected Quran
-    script
+- Your name and gender preference
+- Prayer preferences, including calculation method, madhab, city, and timezone
+- Prayer confirmations and prayer history
+- Quran reading goals, reading progress, reading time, and selected Quran script
+- Challenge participation and completion history
+- Selected apps for app blocking
+- App settings, language, and notification preferences
+- Local accountability notes submitted when unlocking apps
+- Your location coordinates, if you enable location access
 
-  - Challenge participation and completion history
-  - Selected apps for app blocking
-  - App settings and notification preferences
-  - Local accountability notes submitted when unlocking apps
-  - Your chosen location coordinates, if you enable location access
+This information is stored in the app’s on-device storage and is not uploaded to a Miqaat server.
 
-  This information is stored locally using the app’s on-device database and
-  is not uploaded to a Miqaat server.
+## 2. Location information
 
-  ## 2. Location information
+If you choose to enable location access, Miqaat uses your location to calculate accurate prayer times. On Android, Miqaat requests approximate location only. Location is processed on your device and stored locally. Miqaat does not send your location to a Miqaat server and does not use it for advertising, tracking, or selling data.
 
-  If you choose to enable location access, Miqaat uses your current location
-  to calculate accurate prayer times.
+You can disable location access at any time in your device settings and choose a city manually instead.
 
-  Location information is processed for this purpose and stored locally on
-  your device. Miqaat does not use your location for advertising, tracking,
-  or selling data.
+### City search
 
-  You can disable location access at any time through your device settings.
-  If location access is disabled, you may continue using the app by selecting
-  a city manually.
+If you search for a city by name, the text you type is sent to the Open-Meteo geocoding service (open-meteo.com) to look up matching cities and their coordinates. No identifier, account, or other personal information is sent with the search, and Miqaat does not store your searches on any server. Open-Meteo’s terms and privacy policy are available at <https://open-meteo.com/en/terms>.
 
-  ## 3. Notifications
+## 3. Notifications
 
-  Miqaat may request permission to send notifications.
+Miqaat may request permission to send notifications. Notifications are scheduled locally on your device for prayer reminders and Quran reading reminders. Miqaat does not use a remote push-notification server to monitor your activity or send advertising notifications. You can disable notifications at any time in your device settings.
 
-  Notifications are scheduled locally on your device for:
+## 4. App blocking
 
-  - Prayer reminders
-  - Quran reading reminders
+Miqaat can pause apps you choose during prayer times, your Quran reading time, and optional Ramadan quiet hours, until you confirm that you prayed or finished reading. Miqaat never accesses the content inside your apps.
 
-  Miqaat does not use a remote push-notification server to monitor your
-  activity or send personalized advertising notifications.
+### On iPhone
 
-  You can disable notifications at any time through your device settings.
+Miqaat uses Apple’s Family Controls, Managed Settings, and Device Activity frameworks. Selected-app identifiers and blocking settings are stored in the app’s local storage and Apple-approved app-group environment.
 
-  ## 4. App blocking and Screen Time features
+### On Android
 
-  Miqaat uses Apple’s Family Controls, Managed Settings, and Device Activity
-  frameworks to block apps selected by you during prayer or Quran reading
-  periods.
+Miqaat uses the following permissions, each granted by you:
 
-  Information required for app blocking, such as selected-app identifiers and
-  blocking settings, is used only to provide the app-blocking feature and is
-  stored within the app’s local storage and Apple-approved app-group
-  environment.
+- **Usage access** (PACKAGE_USAGE_STATS): to see which app is currently open, so Miqaat knows when a blocked app is launched.
+- **Display over other apps** (SYSTEM_ALERT_WINDOW): to show the full-screen prayer screen on top of a blocked app.
+- **Foreground service**: to keep blocking active during a block period, shown as a persistent notification.
+- **Exact alarms and start on boot**: to start and end block periods exactly on time, including after a restart.
 
-  Miqaat does not access the content inside your blocked apps.
+Information about which app is open is used only on your device, only to decide whether to show the prayer screen. It is not recorded as a history, and it is not sent anywhere. If you deny these permissions, Miqaat shows that blocking is not active. You can turn blocking off at any time in the app.
 
-  ## 5. Quran content
+## 5. Quran content
 
-  Quran text is included within the application and is stored locally on your
-  device. Your Quran reading activity and progress remain on your device and
-  are not uploaded to Miqaat.
+Quran text is included in the app and stored on your device. Your reading activity and progress stay on your device and are not uploaded to Miqaat.
 
-  ## 6. Purchases and subscriptions
+## 6. Purchases and subscriptions
 
-  Miqaat offers optional subscriptions and lifetime purchases through Apple’s
-  App Store.
+Miqaat offers optional subscriptions and lifetime purchases. On iPhone, purchases are processed by Apple through the App Store. On Android, purchases are processed by Google through Google Play Billing.
 
-  Purchases are processed by Apple and managed with the help of RevenueCat.
-  RevenueCat may process information such as:
+Purchases are managed with the help of RevenueCat, Inc. The RevenueCat software in the app sends RevenueCat the following, so your purchases can be verified and restored:
 
-  - An anonymous app user identifier
-  - Product and purchase information
-  - Subscription status
-  - Transaction and entitlement information
-  - Information required to provide, restore, and verify purchases
+- An anonymous app user identifier generated by the app (not your name, email, or phone number)
+- Product and purchase information
+- Subscription status
+- Transaction and entitlement information
 
-  Miqaat does not receive or store your full payment card details. Payment
-  information is handled by Apple according to Apple’s privacy policy.
+This data is encrypted in transit and is used only to provide, verify, and restore purchases. It is not used for advertising and is not sold. Miqaat never receives or stores your payment card details; payment information is handled by Apple or Google.
 
-  Miqaat does not create an account using your name, email address, or phone
-  number.
+Privacy policies:
 
-  RevenueCat’s privacy policy is available at:
+- RevenueCat: <https://www.revenuecat.com/privacy/>
+- Apple: <https://www.apple.com/legal/privacy/>
+- Google: <https://policies.google.com/privacy>
 
-  https://www.revenuecat.com/privacy/
+## 7. Device backup
 
-  Apple’s privacy policy is available at:
+Your device’s own backup system may include Miqaat’s local data: iCloud Backup on iPhone, and Android Backup to your Google account on Android. These backups are controlled by you and by Apple or Google under their policies. Miqaat cannot access them.
 
-  https://www.apple.com/legal/privacy/
+## 8. Information we do not collect
 
-  ## 7. Information we do not collect
+Miqaat does not collect or sell:
 
-  Miqaat does not intentionally collect or sell:
+- Advertising identifiers
+- Your name, email address, or phone number on any server
+- Contact lists, photos, videos, or messages
+- Browsing history or a history of the apps you use
+- Health or biometric data
+- Account passwords or payment card details
+- Your location, prayer data, or Quran data on any server
 
-  - Advertising identifiers for personalized advertising
-  - Contact lists
-  - Photos or videos
-  - Messages
-  - Browsing history
-  - Health data
-  - Biometric data
-  - Account passwords
-  - Payment card details
-  - Precise location on Miqaat servers
-  - Quran or prayer data on Miqaat servers
+Miqaat does not use third-party advertising or analytics services.
 
-  Miqaat does not use third-party advertising or analytics services.
+## 9. Data retention and deletion
 
-  ## 8. Data retention and deletion
+Data stored on your device stays there until you reset it in the app, clear the app’s data, or uninstall Miqaat. Uninstalling removes Miqaat’s local data from your device.
 
-  Locally stored Miqaat data remains on your device until you remove it
-  through the app, reset the app’s data, or uninstall Miqaat.
+Because Miqaat has no accounts, there is no Miqaat profile to delete. Purchase records held by RevenueCat are kept so you can restore purchases and for accounting purposes.
 
-  Uninstalling Miqaat generally removes the locally stored app data from your
-  device. Purchase and subscription records handled by Apple or RevenueCat
-  may remain available for purchase restoration and accounting purposes
-  according to their respective policies.
+**How to request deletion of purchase data:** email us at the address below with the subject “Miqaat data deletion”, and include your purchase receipt or order number (Google Play order ID or Apple receipt) so we can find the matching anonymous record. We will delete the RevenueCat record linked to that purchase within 30 days and confirm by email. Records that Apple or Google keep about your purchase are governed by their policies. After deletion, you may need to use “Restore purchases” in the app again.
 
-  Because Miqaat does not require an account, there is no Miqaat account
-  containing your personal profile information to delete. If you have
-  questions about purchase-related information or privacy requests, you may
-  contact us using the details below.
+## 10. Data security
 
-  ## 9. Data security
+Miqaat relies on your device’s platform security to protect data stored on it, and data sent to RevenueCat and Open-Meteo is encrypted in transit (HTTPS). No method of storage or transmission is completely secure, and we cannot guarantee absolute security.
 
-  Miqaat uses Apple’s platform security and local device storage protections
-  to help protect information stored on your device.
+## 11. Children’s privacy
 
-  No method of electronic storage or transmission is completely secure. We
-  cannot guarantee absolute security.
+Miqaat is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information to us, please contact us.
 
-  ## 10. Children’s privacy
+## 12. Changes to this Privacy Policy
 
-  Miqaat is not directed toward children under the age of 13. We do not
-  knowingly collect personal information from children under 13.
+We may update this Privacy Policy from time to time. Changes will be published at this same address with a new effective date.
 
-  If you believe a child has provided personal information to us, please
-  contact us.
+## 13. Contact us
 
-  ## 11. Changes to this Privacy Policy
+If you have questions about this Privacy Policy or want to make a privacy request, contact us at:
 
-  We may update this Privacy Policy from time to time. Any changes will be
-  published at the same privacy-policy URL, along with a revised effective
-  date.
-
-  ## 12. Contact us
-
-  If you have questions about this Privacy Policy or Miqaat’s privacy
-  practices, contact us at:
-
-  Email: hamid_kawser@hotmail.be
-  Developer: Arif Hossain
+- Email: <hamid_kawser@hotmail.be>
+- Developer: Arif Hossain
